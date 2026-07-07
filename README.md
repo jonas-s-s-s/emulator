@@ -1,4 +1,4 @@
-# Modular RISC-V Platform Emulator for Educational Purposes
+# Modular RISC-V Platform Emulator
 
 * Readme last updated on: 07/07/2026
 
@@ -23,25 +23,25 @@ The thesis PDF can be viewed [here](https://github.com/jonas-s-s-s/emulator/blob
 ## The GUI
 
 <p align="center">
-  <img src="docs/ubuntu_example.png" alt="Architecture" width="600">
+  <img src="doc/ubuntu_example.png" alt="Architecture" width="600">
   <br>
   <em>The main emulator window running on Linux (Ubuntu).</em>
 </p>
 
 <p align="center">
-  <img src="docs/final_ui.png" alt="Architecture" width="600">
+  <img src="doc/final_ui.png" alt="Architecture" width="600">
   <br>
   <em>Final version of the UI (light mode).</em>
 </p>
 
 <p align="center">
-  <img src="docs/final_ui_dark.png" alt="Architecture" width="600">
+  <img src="doc/final_ui_dark.png" alt="Architecture" width="600">
   <br>
   <em>Final version of the UI (dark mode).</em>
 </p>
 
 <p align="center">
-  <img src="docs/uart.png" alt="Architecture" width="600">
+  <img src="doc/uart.png" alt="Architecture" width="600">
   <br>
   <em>Example usage of the emulated UART i/o.</em>
 </p>
