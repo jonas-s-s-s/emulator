@@ -50,80 +50,52 @@ The thesis PDF can be viewed [here](https://github.com/jonas-s-s-s/emulator/blob
 
 | Directory | Description |
 | --- | --- |
-| `src/` | Root directory of the emulator framework's source code.
-
- |
-| `src/ui/` | Contains user interface assets and configuration files like `qtquickcontrols2.conf` and `resources.qrc`.
-
- |
-| `src/ui/qml/` | Houses all QML files defining the layout, views, and structural logic of the graphical user interface.
-
- |
-| `src/elf/` | Storage location for compiled ELF binary examples intended to be loaded and run inside the emulator.
-
- |
-| `test/` | Contains the unit testing suites (using Google Test) and source files for embedded functional verification.
-
- |
-| `doc/` | Contains supplementary project text, build materials, and Doxygen-generated documentation files.
-
- |
+| `src/` | Root directory of the emulator framework's source code. |
+| `src/ui/` | Contains user interface assets and configuration files like `qtquickcontrols2.conf` and `resources.qrc`. |
+| `src/ui/qml/` | Houses all QML files defining the layout, views, and structural logic of the graphical user interface. |
+| `src/elf/` | Storage location for compiled ELF binary examples intended to be loaded and run inside the emulator. |
+| `test/` | Contains the unit testing suites (using Google Test) and source files for embedded functional verification. |
+| `doc/` | Contains supplementary project text, build materials, and Doxygen-generated documentation files. |
 
 ---
 
 # Original Description (translated)
 
-Modular RISC-V Platform Emulator for Educational Purposes (BP 2023/24) 
+Modular RISC-V Platform Emulator for Educational Purposes (BP 2023/24)
 
-Assignment 
+## Assignment
 
 Bachelor's thesis in the fields of Computer Science (Bc), Computer Engineering (Bc), and Information Systems (Bc).
 
-Modular RISC-V Platform Emulator for Educational Purposes 
+**Modular RISC-V Platform Emulator for Educational Purposes**
 
 1. Familiarize yourself with the RISC-V architecture and the most widespread implementations of its instruction set.
-
-
 2. Analyze available solutions for the emulation and debugging of programs targeting this architecture.
-
-
 3. Design a tool capable of emulating the RISC-V platform with the ability to define and configure peripherals independently of its core, and to perform debugging tasks.
-
-
 4. Implement this tool as a modular framework, allowing peripherals to be defined within dynamically linked libraries.
-
-
 5. Test the solution on a set of standard tasks and evaluate the achieved results.
-
-
 
 | Topic Assigned By | Assigned for Academic Year | Assigned To |
 | --- | --- | --- |
-| Ing. Martin Úbl (UN 332) 
-
- | 2023/2024 (on 2023-04-11) 
-
- | Jonáš Dufek 
-
- |
+| Ing. Martin Úbl (UN 332) | 2023/2024 (on 2023-04-11) | Jonáš Dufek |
 
 # Project Dependencies
 
-### Operating System Libraries Required for Compilation
+## Operating System Libraries Required for Compilation
 
 | Name | Purpose |
 | --- | --- |
 | Doxygen + GraphViz | Documentation generation |
-| Qt6.6 | GUI development library |
+| Qt 6.6 | GUI development library |
 
-### The following libraries are automatically downloaded via CMake:
+## The Following Libraries Are Automatically Downloaded via CMake
 
 | Name | Link |
 | --- | --- |
-| libriscv | [https://github.com/fwsGonzo/libriscv](https://github.com/fwsGonzo/libriscv) |
-| doxygen-awesome-css | [https://github.com/jothepro/doxygen-awesome-css](https://github.com/jothepro/doxygen-awesome-css) |
-| JSON for Modern C++ | [https://github.com/nlohmann/json](https://github.com/nlohmann/json) |
-| riscv-disassembler | [https://github.com/michaeljclark/riscv-disassembler](https://github.com/michaeljclark/riscv-disassembler) |
-| spdlog | [https://github.com/gabime/spdlog](https://github.com/gabime/spdlog) |
-| GoogleTest | [https://github.com/google/googletest](https://github.com/google/googletest) |
-| qwindowkit | [https://github.com/stdware/qwindowkit](https://github.com/stdware/qwindowkit) |
+| libriscv | https://github.com/fwsGonzo/libriscv |
+| doxygen-awesome-css | https://github.com/jothepro/doxygen-awesome-css |
+| JSON for Modern C++ | https://github.com/nlohmann/json |
+| riscv-disassembler | https://github.com/michaeljclark/riscv-disassembler |
+| spdlog | https://github.com/gabime/spdlog |
+| GoogleTest | https://github.com/google/googletest |
+| qwindowkit | https://github.com/stdware/qwindowkit |
